@@ -35,7 +35,7 @@ print("El valor de x1 es: %i \nEl valor de x1 al cuadrado es :  %.3f" %(x1, x1**
 
 # Uso del docstring con la funcion print
 # Se puede utilizar el docstring para imprimir un texto largo
-# Se utiliza triple comilla doble, y se puede utilizar saltos de linea 
+# Se utiliza triple comilla doble
 # Ejemplo con la formula de Coulomb
 k = 9 * (10 ** 9)  # Constante de Coulomb en N·m^2/C^2
 
