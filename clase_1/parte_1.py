@@ -49,5 +49,11 @@ print(f"El cociente es: {q} \nEl residuo es: {r}")
 # >= : mayor o igual que
 # <= : menor o igual que
 
+# Operadores logicos	
+# and : y
+# or : o
+# not : negacion
+
+
 
 
