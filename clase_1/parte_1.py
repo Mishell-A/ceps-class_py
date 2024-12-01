@@ -40,6 +40,7 @@ q = d // d_divisor
 r = d % d_divisor
 
 print(f"El cociente es: {q} \nEl residuo es: {r}")
+print("Cargas: \nq1 : %f \nq2 : %.2f \n\nLa Fuerza de Coulomb: %.2f" % (q1,q2,fuerza))
 
 # Operadores de comparacion
 # == : igualdad

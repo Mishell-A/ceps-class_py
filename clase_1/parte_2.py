@@ -31,3 +31,33 @@ print("El valor de x1 al cuadrado es: %.2f" % (x1**(0.5)))
 
 # Imprimir un numero entero y un numero punto flotante (con 3 cifras en la parte decimal)
 print("El valor de x1 es: %i \nEl valor de x1 al cuadrado es :  %.3f" %(x1, x1**(0.5)))
+
+
+# Uso del docstring con la funcion print
+# Se puede utilizar el docstring para imprimir un texto largo
+# Se utiliza triple comilla doble, y se puede utilizar saltos de linea 
+# Ejemplo con la formula de Coulomb
+k = 9 * (10 ** 9)  # Constante de Coulomb en N·m^2/C^2
+
+#Definimos las cargas(C)
+q1 = 2 * (10 ** (-6))
+q2 = 3 * (10 ** (-9))
+
+#Definimos la distancia entre los dos puntos(d)
+d = 12.8 * (10**-2)
+
+#Calculamos la fuerza de Coulomb con la formula
+fuerza = (k * q1 * q2) / (d ** 2)
+
+print("""
+Fuerza de Coulomb
+=================
+
+Entradas:
+    q1: %.13f
+    q2: %.13f
+    d: %.5f
+    k : %i
+
+Fuerza Eléctrica: %f
+""" %(q1,q2,d,k,fuerza))
